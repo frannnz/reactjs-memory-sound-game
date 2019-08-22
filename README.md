@@ -1,5 +1,5 @@
 
-A reactjs memory sound game.
+## A reactjs memory sound game.
 
 Live Preview: https://frannnz.github.io/reactjs-memory-sound-game/
 
