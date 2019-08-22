@@ -157,7 +157,7 @@ export class App extends Component {
     return (
       <div className="all">
         {this.state.playSound !== "" && this.playSound(this.state.playSound)}
-        {<div className="title"> REACTJS-SOUND-MEMORY-GAME </div>}
+        {<div className="title"> REACTJS-MEMORY-SOUND-GAME </div>}
 
         {this.state.founded.length === howMany &&
           <div className="won">
@@ -167,7 +167,7 @@ export class App extends Component {
             />
             Congratulations!
             <br></br>
-            You needed {this.state.counter} turns!
+            {this.state.counter} turns!
             <br></br>
             <button onClick={this.newGame}>START NEW GAME</button>
           </div>

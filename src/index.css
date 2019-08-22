@@ -33,6 +33,7 @@ button {
   border-radius: 7px;
   margin: 5px;
 }
+
 .title {
   font-weight: bold;
   margin-bottom: 40px;
@@ -45,16 +46,6 @@ button {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
-}
-
-@keyframes fade {
-  from {
-  }
-  50% {
-    background-color: rgb(255, 255, 255);
-  }
-  to {
-  }
 }
 
 .item {
@@ -77,6 +68,16 @@ button {
   font-size: 40px;
   text-align: center;
   background-color: rgb(216, 83, 83);
+}
+
+@keyframes fade {
+  from {
+  }
+  50% {
+    background-color: rgb(255, 255, 255);
+  }
+  to {
+  }
 }
 
 .founded {
